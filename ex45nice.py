@@ -1,6 +1,4 @@
-# from sys import exit
 from random import randint
-# from ex45a import * # Engine
 import sys
 import time
 
