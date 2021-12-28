@@ -1,8 +1,6 @@
 """Example module help docstring"""
 # This is the main file of Game of Thorns game, coded in Python 2.
-# from sys import exit
 from random import randint
-# from ex45a import * # Engine
 import sys
 import time
 
