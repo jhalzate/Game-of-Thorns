@@ -349,7 +349,3 @@ class Map(object):
         
         return self.next_scene(self.start_scene)
         
-
-# a_map = Map('central_kingdom')
-# a_game = Engine(a_map)
-# a_game.play()
