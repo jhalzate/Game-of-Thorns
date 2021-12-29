@@ -7,7 +7,7 @@ import sys
 import time
 
 
-# Scene is Generic class to represent any instance or scene of Game of
+# Scene is a Generic class to represent any instance or scene of Game of
 # Thorns. Each scene of the game will become a subclass of Scene.
 class Scene(object):
     """Main scene class.
@@ -357,7 +357,3 @@ class Map(object):
         
         return self.next_scene(self.start_scene)
         
-
-# a_map = Map('central_kingdom')
-# a_game = Engine(a_map)
-# a_game.play()
