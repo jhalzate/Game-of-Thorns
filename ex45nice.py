@@ -1,4 +1,4 @@
-"""Example module help docstring"""
+"""Example module help docstring."""
 # This is the main file of Game of Thorns game, coded in Python 2.
 
 
