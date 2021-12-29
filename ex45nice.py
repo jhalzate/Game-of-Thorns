@@ -144,7 +144,7 @@ class CentralKingdom(Scene):
 
 
 class NorthWall(Scene):
-    """Watcher of the Well scene."""
+    """Watcher of the Wall scene."""
     
     def enter(self):
         verbiage = [
