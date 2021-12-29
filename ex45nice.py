@@ -1,5 +1,7 @@
 """Example module help docstring"""
 # This is the main file of Game of Thorns game, coded in Python 2.
+
+
 from random import randint
 import sys
 import time
@@ -68,6 +70,7 @@ class FailedKingdom(Scene):
 # This scene describes where it all starts. The Central Kingdom and 
 # the idea of a greater united kingdom with imperialist aspirations
 class CentralKingdom(Scene):
+    """Starting scene in the unifying quest."""
     
     def enter(self):
         verbiage = [
@@ -141,6 +144,7 @@ class CentralKingdom(Scene):
 
 
 class NorthWall(Scene):
+    """Watcher of the Well scene."""
     
     def enter(self):
         verbiage = [
@@ -213,6 +217,7 @@ class NorthWall(Scene):
 
 
 class SouthLands(Scene):
+    """Highlanders kingdom scene."""
     
     def enter(self):
         verbiage = [
@@ -239,6 +244,7 @@ class SouthLands(Scene):
    
    
 class Westeros(Scene):
+    """Western most kindom scene."""
     
     def enter(self):
         verbiage = [
@@ -265,6 +271,7 @@ class Westeros(Scene):
  
  
 class Wetlands(Scene):
+    """Wetlands kingdom scene."""
     
     def enter(self):
         verbiage = [
@@ -292,6 +299,7 @@ class Wetlands(Scene):
 # If the player masters this game, this is the Winning Awards Ceremony
 # scene and mouth opener to what may be a sequel game ... 
 class Won(Scene):
+    """Awards Ceremony Scene."""
     
     def enter(self):
         print "Individually we are Amazing"
@@ -349,3 +357,7 @@ class Map(object):
         
         return self.next_scene(self.start_scene)
         
+
+# a_map = Map('central_kingdom')
+# a_game = Engine(a_map)
+# a_game.play()
