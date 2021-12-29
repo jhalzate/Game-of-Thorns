@@ -45,10 +45,10 @@ class Scene(object):
 
 # This class gives a farewell message to the loosing warrior/player
 class FailedKingdom(Scene):
-    """GAME OVER!
+    """GAME OVER!.
     
     When the player fails, this child class will be invoqued and a
-    funny message will be displayed as a consolation prize
+    funny message will be displayed as a consolation prize.
     """
     
     quips = [
@@ -102,7 +102,7 @@ class CentralKingdom(Scene):
         
         action = raw_input("Which kingdom would you approach first? > ")
         
-        # Decision three to decide the fate of player on the welcoming
+        # Decision three to decide the fate of the player on the welcoming
         # scene.
         if action == "North":
             print "\n"
@@ -339,7 +339,7 @@ class Map(object):
         self.start_scene = start_scene
     
     def next_scene(self, scene_name):
-        """What happens next?
+        """What happens next?.
         
         This function takes the scene_name argument and returns the
         child class name corresponding to that tuple defined in the 
